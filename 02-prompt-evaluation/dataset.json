@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Extract all AWS EC2 instance IDs from CloudWatch log entries formatted as 'instance-i-0a1b2c3d4e5f6g7h8'",
+    "format": "regex",
+    "solution_criteria": "Must match the pattern 'i-' followed by exactly 17 hexadecimal characters and capture only the instance ID portion"
+  },
+  {
+    "task": "Create a Python function that takes an AWS S3 bucket name and returns True if it follows AWS naming conventions (lowercase, 3-63 characters, no consecutive hyphens)",
+    "format": "python",
+    "solution_criteria": "Function must validate bucket name length, character set (alphanumeric and hyphens only), and reject names with consecutive hyphens or underscores"
+  },
+  {
+    "task": "Generate a JSON IAM policy document that allows read-only access to all objects in an S3 bucket named 'my-data-bucket'",
+    "format": "json",
+    "solution_criteria": "Must include proper Version, Statement structure, Effect set to Allow, Actions limited to s3:GetObject and s3:ListBucket, and Resource ARNs specific to the bucket"
+  }
+]
