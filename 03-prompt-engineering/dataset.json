@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with carbohydrate loading for sustained energy and recovery",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
+      "Emphasizes high carbohydrate intake (55-65% of calories) appropriate for endurance athlete",
+      "Includes adequate protein for muscle recovery",
+      "Provides sustained energy throughout training and recovery periods"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring maximum carbohydrate loading and sustained energy throughout training and recovery"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Maximize muscle recovery and performance for heavy strength training with high protein intake",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes at least 4 meals/snacks with protein-rich sources (minimum 150g total daily protein)",
+      "Caloric content supports muscle building (approximately 2800-3200 calories for the day)",
+      "Plan is compact and concise (single day format, easy to follow)",
+      "Includes timing considerations for pre/post-workout nutrition to support performance peaks"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-based athlete (weightlifter) emphasizing protein intake, muscle recovery, and caloric density for performance peaks"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "78 kg",
+      "goal": "Optimize energy and recovery for morning training (9 AM, 90-minute soccer practice) and evening competition (7 PM, 90-minute match)",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans full day with 4-5 eating occasions strategically timed around morning training and evening competition",
+      "Includes balanced macronutrients (carbohydrates for energy, protein for recovery, healthy fats) appropriate for soccer athlete's demands",
+      "Specifies hydration strategy before, during, and after training/competition",
+      "Plan is compact and concise (fits within 1 page format)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a mixed-sport athlete (soccer player) needing balanced macronutrients, hydration strategies, and meal timing around morning training and evening competition"
+  }
+]

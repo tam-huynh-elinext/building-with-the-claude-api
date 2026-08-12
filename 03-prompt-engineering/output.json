@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Marathon Training Nutrition Plan\n\n## Daily Caloric Needs\n**~2,800-3,200 calories/day** (depending on training intensity)\n- BMR: ~1,700 cal\n- Training adds: 1,100-1,500 cal\n\n## Macronutrient Distribution\n\n| Nutrient | Amount | Purpose |\n|----------|--------|---------|\n| **Carbohydrates** | 55-65% (385-520g) | Primary fuel source |\n| **Protein** | 15-20% (105-160g) | Muscle repair & recovery |\n| **Fat** | 20-25% (62-89g) | Hormone production & energy |\n\n## Sample Daily Eating Pattern\n\n**Breakfast** (600 cal)\n- Oatmeal with banana, berries, honey\n- Whole grain toast with almond butter\n- Greek yogurt\n\n**Lunch** (700 cal)\n- Lean protein (chicken/fish, 150g)\n- Brown rice or sweet potato (1.5 cups)\n- Vegetables with olive oil\n\n**Snack** (250 cal)\n- Fruit + granola, or energy bar\n\n**Dinner** (700 cal)\n- Lean protein (150g)\n- Pasta or rice (1.5 cups)\n- Vegetables\n\n**Post-Run Snack** (300-400 cal within 30 min)\n- Banana + protein shake or toast + jam\n\n## Key Strategies\n\u2713 Time carbs around workouts  \n\u2713 Stay hydrated (2-3L water daily)  \n\u2713 Taper carb-loading 3 days before race  \n\u2713 Prioritize whole foods over processed\n\n**Consider consulting a sports nutritionist for personalized guidance.**",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with carbohydrate loading for sustained energy and recovery",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
+        "Emphasizes high carbohydrate intake (55-65% of calories) appropriate for endurance athlete",
+        "Includes adequate protein for muscle recovery",
+        "Provides sustained energy throughout training and recovery periods"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring maximum carbohydrate loading and sustained energy throughout training and recovery"
+    },
+    "score": 5,
+    "reasoning": "The solution meets the mandatory requirements at a surface level: it includes a daily caloric total, macronutrient breakdown percentages, and identifies meals with timing. However, the mandatory requirement for 'exact foods, portions, and timing' is only partially satisfied. While timing is addressed (post-run snack within 30 min), portions are imprecise (e.g., '1.5 cups' for rice but no oatmeal quantity) and food choices are sometimes vague. More critically, the meal plan's actual macronutrient composition cannot be verified against the stated targets, and the caloric sum doesn't align with the stated daily total. The solution provides a solid framework but lacks the specificity required for a practical, executable meal plan."
+  },
+  {
+    "output": "# Nutrition Plan for Strength Training & Muscle Recovery\n\n## Daily Caloric Intake\n**2,800\u20133,200 calories/day** (depending on training intensity and goals)\n- Your TDEE is ~2,500\u20132,700 cal; add 300\u2013500 cal surplus for muscle gain\n\n## Macronutrient Targets\n\n| Macro | Daily Amount | Purpose |\n|-------|--------------|---------|\n| **Protein** | 160\u2013170g (1.9\u20132g per kg) | Muscle repair & recovery |\n| **Carbs** | 350\u2013420g (4\u20135g per kg) | Energy & glycogen replenishment |\n| **Fat** | 80\u2013100g (0.9\u20131.2g per kg) | Hormone production & absorption |\n\n## Recommended Foods by Category\n\n### Protein Sources (30\u201340g per serving)\n- Chicken breast, lean beef, salmon\n- Greek yogurt, cottage cheese, eggs\n- Whey protein powder, legumes\n- Turkey, pork tenderloin\n\n### Carbohydrates (Pre/Post-Training)\n- Oats, rice, sweet potatoes\n- Whole grain bread, pasta\n- Fruits (bananas, berries)\n- White rice (post-workout)\n\n### Healthy Fats\n- Olive oil, avocados, nuts\n- Fatty fish (salmon, mackerel)\n- Nut butters, seeds\n\n## Meal Timing Strategy\n- **Pre-workout**: Carbs + moderate protein 2\u20133 hrs before\n- **Post-workout**: Protein + carbs within 30\u201360 mins (recovery window)\n- **Between meals**: Protein snacks every 3\u20134 hours\n\n---\n*Consider tracking intake for 2 weeks to dial in optimal amounts.*",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Maximize muscle recovery and performance for heavy strength training with high protein intake",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan includes at least 4 meals/snacks with protein-rich sources (minimum 150g total daily protein)",
+        "Caloric content supports muscle building (approximately 2800-3200 calories for the day)",
+        "Plan is compact and concise (single day format, easy to follow)",
+        "Includes timing considerations for pre/post-workout nutrition to support performance peaks"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength-based athlete (weightlifter) emphasizing protein intake, muscle recovery, and caloric density for performance peaks"
+    },
+    "score": 2,
+    "reasoning": "The solution violates all three mandatory requirements. While it provides excellent general nutritional guidance (macronutrient targets, food categories, and timing principles), it completely fails to deliver what was explicitly requested: a specific 1-day meal plan with exact foods, portions, and timing. The task asks for a 'compact, concise 1 day meal plan' with specific meals, but the solution is a generic framework/template rather than an actual meal plan. A proper response would show something like 'Breakfast: 3 eggs + oats (time), Lunch: chicken + rice (time)' etc., with portions and calorie/protein totals. The solution reads more like nutritional education material than an actionable daily meal plan."
+  },
+  {
+    "output": "# Nutrition Plan for Dual Training & Competition Day\n\n## **Daily Calorie Target**\n- **BMR (~1,700 cal) + Activity (\u00d71.7) = ~2,900 cal**\n- Adjust to **3,100-3,300 cal** for optimal recovery between sessions\n\n---\n\n## **MORNING (Pre-9 AM Training)**\n*2-3 hours before practice*\n- **Oatmeal** (50g) + banana + honey + pinch of salt\n- **Greek yogurt** (150g)\n- Water + electrolytes\n\n**Macros:** 50g carbs, 15g protein, 8g fat\n\n---\n\n## **Mid-Morning (Post-Training Recovery)**\n*Within 30 minutes of 10:30 AM finish*\n- **Protein shake:** Whey protein (25g) + banana + 250ml whole milk\n- **Toast with almond butter** (1-2 slices)\n\n**Macros:** 50g carbs, 35g protein, 10g fat\n\n---\n\n## **LUNCH (12-1 PM)**\n- **Lean protein:** 150-180g chicken/fish/lean beef\n- **Rice or pasta:** 150-200g (cooked)\n- **Vegetables:** Mixed greens, broccoli, sweet potato\n- Olive oil drizzle\n\n**Macros:** 70g carbs, 45g protein, 12g fat\n\n---\n\n## **Afternoon Snack (4-5 PM)**\n*2 hours before evening match*\n- **Rice cakes** or **bagel** with jam\n- **Banana** + handful of almonds\n- Water\n\n**Macros:** 60g carbs, 10g protein, 8g fat\n\n---\n\n## **EVENING (Post-Competition)**\n*Within 30 minutes of match end*\n- **Protein + carbs:** Chicken sandwich, chocolate milk, or pasta with lean meat\n- **Hydrate:** 500-750ml water + electrolytes\n\n**Macros:** 50g carbs, 35g protein, 10g fat\n\n---\n\n## **DINNER (8:30-9 PM)**\n- **Salmon or lean beef:** 150g\n- **Sweet potato or brown rice:** 150g\n- **Roasted vegetables**\n- **Healthy fat:** Avocado or olive oil\n\n**Macros:** 50g carbs, 40g protein, 15g fat\n\n---\n\n## **Hydration Strategy**\n- **Morning:** 500ml upon waking\n- **Pre-training:** 400-500ml\n- **During both sessions:** 150-200ml every 15 min\n- **Post-activity:** 150% of sweat loss over 4-6 hours\n- **Throughout day:** 3-4 liters total\n\n---\n\n## **Key Principles**\n\u2705 Prioritize **carbs + protein** around both sessions  \n\u2705 Sodium in meals/drinks aids hydration & performance  \n\u2705 Avoid high fiber/fat 2-3 hours before exercise  \n\u2705 Sleep 7-9 hours for optimal recovery  \n\n**Consider consulting a sports dietitian for personalized macro refinement.**",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "78 kg",
+        "goal": "Optimize energy and recovery for morning training (9 AM, 90-minute soccer practice) and evening competition (7 PM, 90-minute match)",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan spans full day with 4-5 eating occasions strategically timed around morning training and evening competition",
+        "Includes balanced macronutrients (carbohydrates for energy, protein for recovery, healthy fats) appropriate for soccer athlete's demands",
+        "Specifies hydration strategy before, during, and after training/competition",
+        "Plan is compact and concise (fits within 1 page format)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a mixed-sport athlete (soccer player) needing balanced macronutrients, hydration strategies, and meal timing around morning training and evening competition"
+    },
+    "score": 8,
+    "reasoning": "The solution meets all three mandatory requirements: (1) Daily caloric total is stated (3,100-3,300 cal), (2) Macronutrient breakdown is provided for each meal/snack, and (3) Meals include exact foods, portions, and strategic timing around both sessions. All secondary criteria are satisfied: 5 eating occasions span the full day, macronutrients are balanced appropriately for a soccer athlete, hydration is detailed before/during/after both activities, and the format is compact and concise. The primary deficiency is that daily macro totals are not explicitly summed to verify they align with the stated caloric target, and individual meal calories are not numerically specified. However, these omissions do not violate the mandatory requirements, which ask for 'daily caloric total' (provided as range) and 'macronutrient breakdown' (provided per meal). The solution is well-organized, practical, and directly addresses the athlete's dual-session scenario."
+  }
+]
