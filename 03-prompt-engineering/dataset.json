@@ -1,50 +1,39 @@
 [
   {
     "prompt_inputs": {
-      "height": "178 cm",
-      "weight": "68 kg",
-      "goal": "Marathon training with carbohydrate loading for sustained energy and recovery",
-      "restrictions": "None"
+      "content": "Recent advances in photosynthetic efficiency have revealed critical interactions between chlorophyll molecular structure and light absorption wavelengths, with implications for crop yield optimization. Simultaneously, atmospheric CO2 concentrations continue to rise, driven by anthropogenic emissions that alter soil pH and nutrient cycling rates. The enzymatic breakdown of lignin by fungal cellulases presents promising applications for biofuel production, while heavy metal bioaccumulation in aquatic ecosystems threatens both biodiversity and water quality for downstream communities. These interconnected processes\u2014spanning plant biochemistry, atmospheric chemistry, microbial metabolism, and environmental toxicology\u2014demonstrate the complex relationship between cellular-level mechanisms and ecosystem-scale consequences."
     },
     "solution_criteria": [
-      "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
-      "Emphasizes high carbohydrate intake (55-65% of calories) appropriate for endurance athlete",
-      "Includes adequate protein for muscle recovery",
-      "Provides sustained energy throughout training and recovery periods"
+      "Identifies all distinct subject areas: plant biology/photosynthesis, atmospheric science/climate, microbiology/biotechnology, and environmental science/toxicology",
+      "Separates topics into a JSON array of strings with no duplicates",
+      "Extracts topics at appropriate granularity without over-fragmentation or excessive abstraction"
     ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring maximum carbohydrate loading and sustained energy throughout training and recovery"
+    "task_description": "\n    Extract topics of a passage of text from a scholarly article into a JSON array of strings\n    ",
+    "scenario": "Testing with a multi-disciplinary passage containing mixed topics from biology, chemistry, and environmental science to verify the prompt can identify and separate distinct subject areas"
   },
   {
     "prompt_inputs": {
-      "height": "180 cm",
-      "weight": "85 kg",
-      "goal": "Maximize muscle recovery and performance for heavy strength training with high protein intake",
-      "restrictions": "None"
+      "content": "The intersection of climate change mitigation and economic development presents complex policy challenges. Thermodynamic models predict that limiting atmospheric CO2 concentrations to 450 ppm requires a 70% reduction in global carbon emissions by 2050, necessitating rapid deployment of renewable energy infrastructure. However, the transition imposes heterogeneous economic costs across regions: developing nations argue that historical emitters bear responsibility for decarbonization financing, while energy-intensive industries face stranded asset risks. Carbon pricing mechanisms, whether cap-and-trade systems or carbon taxes, attempt to internalize environmental externalities, yet effectiveness depends on coordinated international governance frameworks. Simultaneously, renewable technology advancement\u2014including photovoltaic efficiency gains and battery storage improvements\u2014reduces mitigation costs, creating opportunities for green economic growth and job creation in manufacturing and installation sectors."
     },
     "solution_criteria": [
-      "Meal plan includes at least 4 meals/snacks with protein-rich sources (minimum 150g total daily protein)",
-      "Caloric content supports muscle building (approximately 2800-3200 calories for the day)",
-      "Plan is compact and concise (single day format, easy to follow)",
-      "Includes timing considerations for pre/post-workout nutrition to support performance peaks"
+      "Extracts all major topics including climate science, economics, policy, renewable energy technology, and governance",
+      "Distinguishes between overlapping concepts (e.g., carbon pricing as distinct from climate policy broadly)",
+      "Avoids over-granularity by grouping closely related subtopics (e.g., photovoltaic and battery improvements as renewable energy rather than separate topics)",
+      "Returns results as a valid JSON array of strings"
     ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a strength-based athlete (weightlifter) emphasizing protein intake, muscle recovery, and caloric density for performance peaks"
+    "task_description": "\n    Extract topics of a passage of text from a scholarly article into a JSON array of strings\n    ",
+    "scenario": "Testing with a passage containing implicit and overlapping topics where subjects are intertwined (e.g., a climate change article discussing economics, physics, and policy) to assess topic granularity and accuracy of extraction"
   },
   {
     "prompt_inputs": {
-      "height": "180 cm",
-      "weight": "78 kg",
-      "goal": "Optimize energy and recovery for morning training (9 AM, 90-minute soccer practice) and evening competition (7 PM, 90-minute match)",
-      "restrictions": "None"
+      "content": "In formal language theory, the Chomsky hierarchy classifies grammars into four levels based on their generative power: regular languages recognized by finite automata, context-free languages parsed by pushdown automata, context-sensitive languages processed by linear-bounded automata, and recursively enumerable languages accepted by Turing machines. The pumping lemma provides a necessary condition for language membership within these classes, enabling mathematicians to prove that certain languages cannot be generated by grammars of a particular type. These foundational concepts establish the theoretical boundaries between computational complexity classes and inform the design of programming language syntax and compiler architecture."
     },
     "solution_criteria": [
-      "Meal plan spans full day with 4-5 eating occasions strategically timed around morning training and evening competition",
-      "Includes balanced macronutrients (carbohydrates for energy, protein for recovery, healthy fats) appropriate for soccer athlete's demands",
-      "Specifies hydration strategy before, during, and after training/competition",
-      "Plan is compact and concise (fits within 1 page format)"
+      "Extracts all core topics mentioned: Chomsky hierarchy, regular languages, context-free languages, context-sensitive languages, recursively enumerable languages, finite automata, pushdown automata, linear-bounded automata, Turing machines, pumping lemma, and computational complexity",
+      "Returns output as a JSON array of strings",
+      "Avoids including generic terms unrelated to the specific mathematical concepts (e.g., 'mathematicians', 'design')"
     ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a mixed-sport athlete (soccer player) needing balanced macronutrients, hydration strategies, and meal timing around morning training and evening competition"
+    "task_description": "\n    Extract topics of a passage of text from a scholarly article into a JSON array of strings\n    ",
+    "scenario": "Testing with a short, focused passage from a single discipline (e.g., pure mathematics or linguistics) with clearly delineated concepts to verify accurate extraction of core topics with minimal ambiguity"
   }
 ]
